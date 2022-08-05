@@ -6,5 +6,6 @@ app=Flask(__name__)
 def up_time_excoino():
     return str(datetime.datetime.now())
 
+if __name__=="__main__":
+   app.run(debug=True) 
 
-app.run()
