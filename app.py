@@ -7,4 +7,4 @@ def up_time_excoino():
     return str(datetime.datetime.now())
 
 
-app.run(port=8000)
+app.run(port=80)
